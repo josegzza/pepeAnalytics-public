@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>pepeAnalytics · MLB picks tracker</title>
+<style>
+  :root {
+    --bg: #0b0f17;
+    --panel: #131a26;
+    --border: #20293a;
+    --text: #e6edf7;
+    --muted: #8493a8;
+    --accent: #4ade80;
+    --bad: #f87171;
+    --neutral: #60a5fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  header {
+    padding: 32px 24px 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+  }
+  h1 .accent { color: var(--accent); }
+  .sub {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  main {
+    padding: 16px 24px 48px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin: 24px 0;
+  }
+  .kpi {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .kpi .label {
+    color: var(--muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .kpi .value {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .kpi .value.good { color: var(--accent); }
+  .kpi .value.bad { color: var(--bad); }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  .panel h2 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  canvas { width: 100% !important; height: 220px !important; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  th, td {
+    padding: 10px 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+  th {
+    color: var(--muted);
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  td.result-W { color: var(--accent); font-weight: 600; }
+  td.result-L { color: var(--bad); font-weight: 600; }
+  td.result-P { color: var(--muted); font-weight: 600; }
+  td.roi.pos { color: var(--accent); }
+  td.roi.neg { color: var(--bad); }
+
+  .filters {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }
+  .filters button {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    padding: 6px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .filters button.active {
+    background: var(--neutral);
+    color: var(--bg);
+    border-color: var(--neutral);
+  }
+
+  footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--neutral); text-decoration: none; }
+
+  @media (max-width: 600px) {
+    table { font-size: 12px; }
+    th, td { padding: 8px 6px; }
+    .short-reason-cell { display: none; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>pepe<span class="accent">Analytics</span></h1>
+  <div class="sub">MLB picks tracker · 1u flat · actualizado <span id="updated">—</span></div>
+</header>
+
+<main>
+  <section class="kpis">
+    <div class="kpi"><div class="label">Record</div><div class="value" id="record">—</div></div>
+    <div class="kpi"><div class="label">Unidades netas</div><div class="value" id="units">—</div></div>
+    <div class="kpi"><div class="label">ROI</div><div class="value" id="roi">—</div></div>
+    <div class="kpi"><div class="label">Win rate</div><div class="value" id="winrate">—</div></div>
+    <div class="kpi"><div class="label">Picks totales</div><div class="value" id="total">—</div></div>
+  </section>
+
+  <section class="panel">
+    <h2>Equity curve</h2>
+    <canvas id="equity"></canvas>
+  </section>
+
+  <section class="panel">
+    <h2>Histórico</h2>
+    <div class="filters" id="filters">
+      <button data-market="ALL" class="active">Todos</button>
+      <button data-market="ML">ML</button>
+      <button data-market="RL">RL</button>
+      <button data-market="Total">Total</button>
+      <button data-market="F5 ML">F5 ML</button>
+      <button data-market="F5 RL">F5 RL</button>
+      <button data-market="F5 Total">F5 Total</button>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Juego</th>
+            <th>Mercado</th>
+            <th>Pick</th>
+            <th>Odds</th>
+            <th>Resultado</th>
+            <th>ROI</th>
+            <th class="short-reason-cell">Razón</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>No es asesoría financiera. Apuesta responsable.</div>
+  <div style="margin-top:8px">
+    Sigue las picks diarias en <a id="twitter-link" href="https://x.com">X</a>.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+const fmtUnits = v => (v >= 0 ? "+" : "") + v.toFixed(2) + "u";
+const fmtPct = v => (v >= 0 ? "+" : "") + v.toFixed(1) + "%";
+
+async function load() {
+  const [picks, summary] = await Promise.all([
+    fetch("data/picks.json").then(r => r.json()),
+    fetch("data/summary.json").then(r => r.json()),
+  ]);
+
+  document.getElementById("updated").textContent = summary.updated_at?.slice(0, 10) || "—";
+  document.getElementById("record").textContent =
+    `${summary.wins}-${summary.losses}-${summary.pushes}`;
+
+  const unitsEl = document.getElementById("units");
+  unitsEl.textContent = fmtUnits(summary.units);
+  unitsEl.classList.toggle("good", summary.units >= 0);
+  unitsEl.classList.toggle("bad", summary.units < 0);
+
+  const roiEl = document.getElementById("roi");
+  roiEl.textContent = fmtPct(summary.roi_pct);
+  roiEl.classList.toggle("good", summary.roi_pct >= 0);
+  roiEl.classList.toggle("bad", summary.roi_pct < 0);
+
+  document.getElementById("winrate").textContent = summary.win_pct.toFixed(1) + "%";
+  document.getElementById("total").textContent = summary.total_picks;
+
+  drawEquity(summary.equity_curve);
+  renderTable(picks, "ALL");
+
+  document.getElementById("filters").addEventListener("click", e => {
+    if (e.target.tagName !== "BUTTON") return;
+    document.querySelectorAll("#filters button").forEach(b => b.classList.remove("active"));
+    e.target.classList.add("active");
+    renderTable(picks, e.target.dataset.market);
+  });
+}
+
+function drawEquity(curve) {
+  const ctx = document.getElementById("equity");
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: curve.map(p => p.date),
+      datasets: [{
+        label: "Unidades",
+        data: curve.map(p => p.units),
+        borderColor: "#4ade80",
+        backgroundColor: "rgba(74,222,128,0.1)",
+        fill: true,
+        tension: 0.2,
+        pointRadius: 0,
+      }],
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { ticks: { color: "#8493a8", maxTicksLimit: 8 }, grid: { color: "#20293a" } },
+        y: { ticks: { color: "#8493a8" }, grid: { color: "#20293a" } },
+      },
+    },
+  });
+}
+
+function renderTable(picks, market) {
+  const rows = document.getElementById("rows");
+  rows.innerHTML = "";
+  const filtered = market === "ALL" ? picks : picks.filter(p => p.market === market);
+  const recent = filtered.slice(-50).reverse();
+  for (const p of recent) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${p.date}</td>
+      <td>${p.game}</td>
+      <td>${p.market}</td>
+      <td>${p.selection}</td>
+      <td>${p.odds}</td>
+      <td class="result-${p.result}">${p.result}</td>
+      <td class="roi ${p.roi_units >= 0 ? "pos" : "neg"}">${fmtUnits(p.roi_units)}</td>
+      <td class="short-reason-cell">${p.short_reason || ""}</td>
+    `;
+    rows.appendChild(tr);
+  }
+  if (!recent.length) {
+    rows.innerHTML = `<tr><td colspan="8" style="text-align:center;color:#8493a8;padding:24px">Sin picks todavía</td></tr>`;
+  }
+}
+
+load().catch(err => {
+  document.getElementById("rows").innerHTML =
+    `<tr><td colspan="8" style="color:#f87171">Error cargando data: ${err.message}</td></tr>`;
+});
+</script>
+</body>
+</html>
