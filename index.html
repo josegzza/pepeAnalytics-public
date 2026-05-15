@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>pepeAnalytics · MLB picks tracker</title>
+<title>pepeAnalytics · MLB Picks Tracker</title>
 <style>
   :root {
     --bg: #0b0f17;
@@ -149,27 +149,27 @@
 <body>
 <header>
   <h1>pepe<span class="accent">Analytics</span></h1>
-  <div class="sub">MLB picks tracker · 1u flat · actualizado <span id="updated">—</span></div>
+  <div class="sub">MLB picks tracker · 1u flat · updated <span id="updated">—</span></div>
 </header>
 
 <main>
   <section class="kpis">
     <div class="kpi"><div class="label">Record</div><div class="value" id="record">—</div></div>
-    <div class="kpi"><div class="label">Unidades netas</div><div class="value" id="units">—</div></div>
+    <div class="kpi"><div class="label">Net Units</div><div class="value" id="units">—</div></div>
     <div class="kpi"><div class="label">ROI</div><div class="value" id="roi">—</div></div>
-    <div class="kpi"><div class="label">Win rate</div><div class="value" id="winrate">—</div></div>
-    <div class="kpi"><div class="label">Picks totales</div><div class="value" id="total">—</div></div>
+    <div class="kpi"><div class="label">Win Rate</div><div class="value" id="winrate">—</div></div>
+    <div class="kpi"><div class="label">Total Picks</div><div class="value" id="total">—</div></div>
   </section>
 
   <section class="panel">
-    <h2>Equity curve</h2>
+    <h2>Equity Curve</h2>
     <canvas id="equity"></canvas>
   </section>
 
   <section class="panel">
-    <h2>Histórico</h2>
+    <h2>History</h2>
     <div class="filters" id="filters">
-      <button data-market="ALL" class="active">Todos</button>
+      <button data-market="ALL" class="active">All</button>
       <button data-market="ML">ML</button>
       <button data-market="RL">RL</button>
       <button data-market="Total">Total</button>
@@ -181,14 +181,14 @@
       <table>
         <thead>
           <tr>
-            <th>Fecha</th>
-            <th>Juego</th>
-            <th>Mercado</th>
+            <th>Date</th>
+            <th>Game</th>
+            <th>Market</th>
             <th>Pick</th>
             <th>Odds</th>
-            <th>Resultado</th>
+            <th>Result</th>
             <th>ROI</th>
-            <th class="short-reason-cell">Razón</th>
+            <th class="short-reason-cell">Reason</th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -198,9 +198,9 @@
 </main>
 
 <footer>
-  <div>No es asesoría financiera. Apuesta responsable.</div>
+  <div>Not financial advice. Bet responsibly.</div>
   <div style="margin-top:8px">
-    Sigue las picks diarias en <a id="twitter-link" href="https://x.com">X</a>.
+    Follow daily picks on <a href="https://x.com/pepeAnalytics">@pepeAnalytics</a>.
   </div>
 </footer>
 
@@ -250,7 +250,7 @@ function drawEquity(curve) {
     data: {
       labels: curve.map(p => { const [d,m] = p.date.split("-"); return `${d}/${m}`; }),
       datasets: [{
-        label: "Unidades",
+        label: "Units",
         data: curve.map(p => p.units),
         borderColor: "#4ade80",
         backgroundColor: "rgba(74,222,128,0.1)",
@@ -289,7 +289,7 @@ function renderTable(picks, market) {
     rows.appendChild(tr);
   }
   if (!recent.length) {
-    rows.innerHTML = `<tr><td colspan="8" style="text-align:center;color:#8493a8;padding:24px">Sin picks todavía</td></tr>`;
+    rows.innerHTML = `<tr><td colspan="8" style="text-align:center;color:#8493a8;padding:24px">No picks yet</td></tr>`;
   }
 }
 
