@@ -1,23 +1,21 @@
-# pepeAnalytics — MLB picks tracker
+# pepeAnalytics — MLB Picks Tracker
 
-Dashboard público de performance de las picks diarias de pepeAnalytics.
+Public performance dashboard for pepeAnalytics daily picks.
 
-- **1 unidad flat** por pick.
-- **Top-5 mejor valor** publicado cada día en X.
-- Resultados settleados automáticamente al día siguiente.
+- **1 flat unit** per pick.
+- **Top-5 best value** picks published every day on X — [@pepeAnalytics](https://x.com/pepeAnalytics).
+- Results settled automatically the following day.
 
 ## Disclaimer
 
-Este dashboard es solo para fines informativos y de tracking de performance.
-No constituye asesoría financiera ni recomendación de apuestas. Apuesta
-responsablemente, dentro de tus posibilidades, y solo donde sea legal en tu
-jurisdicción.
+This dashboard is for informational and performance tracking purposes only.
+It does not constitute financial advice or a recommendation to bet. Gamble
+responsibly, within your means, and only where it is legal in your jurisdiction.
 
-## Estructura
+## Structure
 
-- `index.html` — dashboard (vanilla JS + Chart.js).
-- `data/picks.json` — histórico de picks settleadas.
-- `data/summary.json` — KPIs precomputados (record, ROI, equity curve).
+- `index.html` — dashboard (vanilla JS + ApexCharts).
+- `data/picks.json` — full history of settled picks.
+- `data/summary.json` — precomputed KPIs (record, ROI, equity curve).
 
-Los datos se actualizan automáticamente cada mañana ET vía un push desde el
-repo privado.
+Data is updated automatically every morning ET via a push from the private repo.
