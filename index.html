@@ -248,7 +248,7 @@ function drawEquity(curve) {
   new Chart(ctx, {
     type: "line",
     data: {
-      labels: curve.map(p => p.date),
+      labels: curve.map(p => { const [d,m] = p.date.split("-"); return `${d}/${m}`; }),
       datasets: [{
         label: "Unidades",
         data: curve.map(p => p.units),
