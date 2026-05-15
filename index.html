@@ -194,7 +194,6 @@
             <th>Odds</th>
             <th>Result</th>
             <th>ROI</th>
-            <th class="short-reason-cell">Reason</th>
           </tr>
         </thead>
         <tbody id="rows"></tbody>
@@ -373,7 +372,6 @@ function renderTable(picks, market) {
       <td>${p.odds}</td>
       <td class="result-${p.result}">${p.result}</td>
       <td class="roi ${p.roi_units >= 0 ? "pos" : "neg"}">${fmtUnits(p.roi_units)}</td>
-      <td class="short-reason-cell">${p.short_reason || ""}</td>
     `;
     rows.appendChild(tr);
   }
