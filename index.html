@@ -168,6 +168,11 @@
   </section>
 
   <section class="panel">
+    <h2>Daily ROI</h2>
+    <div id="daily-roi"></div>
+  </section>
+
+  <section class="panel">
     <h2>History</h2>
     <div class="filters" id="filters">
       <button data-market="ALL" class="active">All</button>
@@ -231,6 +236,7 @@ async function load() {
   document.getElementById("total").textContent = summary.total_picks;
 
   requestAnimationFrame(() => drawEquity(summary.equity_curve));
+  requestAnimationFrame(() => drawDailyROI(summary.equity_curve));
   renderTable(picks, "ALL");
 
   document.getElementById("filters").addEventListener("click", e => {
@@ -276,6 +282,59 @@ function drawEquity(curve) {
       },
     },
     markers: { size: 4, colors: ["#4ade80"], strokeColors: "#131a26", strokeWidth: 2, hover: { size: 6 } },
+    xaxis: {
+      type: "datetime",
+      labels: { style: { colors: "#8493a8" }, datetimeUTC: false },
+      axisBorder: { color: "#20293a" },
+      axisTicks: { color: "#20293a" },
+    },
+    yaxis: {
+      labels: {
+        style: { colors: "#8493a8" },
+        formatter: v => (v >= 0 ? "+" : "") + v.toFixed(1) + "u",
+      },
+    },
+    grid: { borderColor: "#20293a" },
+    tooltip: {
+      theme: "dark",
+      x: { format: "dd MMM" },
+      y: { formatter: v => (v >= 0 ? "+" : "") + v.toFixed(2) + "u" },
+    },
+    dataLabels: { enabled: false },
+    legend: { show: false },
+  }).render();
+}
+
+function drawDailyROI(curve) {
+  const daily = curve.map((p, i) => {
+    const prev = i === 0 ? 0 : curve[i - 1].units;
+    const roi = parseFloat((p.units - prev).toFixed(2));
+    const [d, m, y] = p.date.split("-");
+    return { x: new Date(`${y}-${m}-${d}`).getTime(), y: roi };
+  });
+
+  const el = document.getElementById("daily-roi");
+  const w = el.parentElement?.clientWidth || window.innerWidth || 800;
+
+  new ApexCharts(el, {
+    chart: {
+      type: "bar",
+      height: 220,
+      width: w - 32,
+      background: "transparent",
+      toolbar: { show: false },
+      animations: { enabled: true, speed: 600 },
+    },
+    theme: { mode: "dark" },
+    series: [{ name: "Daily ROI", data: daily }],
+    plotOptions: {
+      bar: {
+        distributed: true,
+        borderRadius: 3,
+        columnWidth: "70%",
+      },
+    },
+    colors: daily.map(p => p.y >= 0 ? "#4ade80" : "#f87171"),
     xaxis: {
       type: "datetime",
       labels: { style: { colors: "#8493a8" }, datetimeUTC: false },
