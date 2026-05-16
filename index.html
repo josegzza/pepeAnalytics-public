@@ -249,7 +249,7 @@ async function load() {
 function drawEquity(curve) {
   const series = curve.map(p => {
     const [d, m, y] = p.date.split("-");
-    return { x: new Date(`${y}-${m}-${d}`).getTime(), y: p.units };
+    return { x: new Date(`${y}-${m}-${d}T12:00:00`).getTime(), y: p.units };
   });
 
   const el = document.getElementById("equity");
@@ -309,7 +309,7 @@ function drawDailyROI(curve) {
     const prev = i === 0 ? 0 : curve[i - 1].units;
     const roi = parseFloat((p.units - prev).toFixed(2));
     const [d, m, y] = p.date.split("-");
-    return { x: new Date(`${y}-${m}-${d}`).getTime(), y: roi };
+    return { x: new Date(`${y}-${m}-${d}T12:00:00`).getTime(), y: roi };
   });
 
   const el = document.getElementById("daily-roi");
