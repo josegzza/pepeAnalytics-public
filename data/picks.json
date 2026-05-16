@@ -1010,5 +1010,60 @@
     "result": "W",
     "roi_units": 0.77,
     "short_reason": "Castillo edge sobre Burrows"
+  },
+  {
+    "date": "15-05-2026",
+    "game": "TEX @ HOU",
+    "market": "ML",
+    "selection": "HOU ML",
+    "odds": "-108",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.93,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "NYM @ NYY",
+    "market": "Total",
+    "selection": "Under 8.5 NYM-NYY",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "PHI @ PIT",
+    "market": "Total",
+    "selection": "Under 8.5 PHI-PIT",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "KCR @ STL",
+    "market": "ML",
+    "selection": "KCR ML",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "BAL @ WSH",
+    "market": "ML",
+    "selection": "BAL ML",
+    "odds": "-144",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
   }
 ]
