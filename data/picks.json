@@ -1010,5 +1010,115 @@
     "result": "W",
     "roi_units": 0.77,
     "short_reason": "Castillo edge sobre Burrows"
+  },
+  {
+    "date": "15-05-2026",
+    "game": "TEX @ HOU",
+    "market": "ML",
+    "selection": "HOU ML",
+    "odds": "-108",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.93,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "NYM @ NYY",
+    "market": "Total",
+    "selection": "Under 8.5 NYM-NYY",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "PHI @ PIT",
+    "market": "Total",
+    "selection": "Under 8.5 PHI-PIT",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "KCR @ STL",
+    "market": "ML",
+    "selection": "KCR ML",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "15-05-2026",
+    "game": "BAL @ WSH",
+    "market": "ML",
+    "selection": "BAL ML",
+    "odds": "-144",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "16-05-2026",
+    "game": "TOR @ DET",
+    "market": "ML",
+    "selection": "DET ML",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "16-05-2026",
+    "game": "PHI @ PIT",
+    "market": "F5 ML",
+    "selection": "PHI F5 ML",
+    "odds": "-150",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.67,
+    "short_reason": ""
+  },
+  {
+    "date": "16-05-2026",
+    "game": "AZ @ COL",
+    "market": "RL",
+    "selection": "COL +1.5",
+    "odds": "+106",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.06,
+    "short_reason": ""
+  },
+  {
+    "date": "16-05-2026",
+    "game": "MIL @ MIN",
+    "market": "ML",
+    "selection": "MIN ML",
+    "odds": "+112",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": ""
+  },
+  {
+    "date": "16-05-2026",
+    "game": "CIN @ CLE",
+    "market": "ML",
+    "selection": "CLE ML",
+    "odds": "-145",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.69,
+    "short_reason": ""
   }
 ]
