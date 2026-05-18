@@ -1120,5 +1120,49 @@
     "result": "W",
     "roi_units": 0.69,
     "short_reason": ""
+  },
+  {
+    "date": "17-05-2026",
+    "game": "MIL @ MIN",
+    "market": "ML",
+    "selection": "Milwaukee Brewers ML",
+    "odds": "-125",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "MIN won 5-4; MIL lost"
+  },
+  {
+    "date": "17-05-2026",
+    "game": "MIA @ TB",
+    "market": "RL",
+    "selection": "Tampa Bay Rays -1.5",
+    "odds": "+146",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.46,
+    "short_reason": "TB won 6-3, covered -1.5 (won by 3)"
+  },
+  {
+    "date": "17-05-2026",
+    "game": "SD @ SEA",
+    "market": "ML",
+    "selection": "San Diego Padres ML",
+    "odds": "+134",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.34,
+    "short_reason": "SD won 8-3; Giolito won debut"
+  },
+  {
+    "date": "17-05-2026",
+    "game": "MIA @ TB",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "TB 6 + MIA 3 = 9 runs; over 7.5"
   }
 ]
