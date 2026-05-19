@@ -1183,9 +1183,9 @@
     "selection": "Under 7.0",
     "odds": "-110",
     "stake_units": 1.0,
-    "result": "W",
-    "roi_units": 0.91,
-    "short_reason": "Final score 6-1, total 7 runs, under 7.0 wins"
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final score SEA 6-1 CHW = 7 runs exactos en línea 7.0 — Push"
   },
   {
     "date": "18-05-2026",
@@ -1194,9 +1194,9 @@
     "selection": "Over 10.5",
     "odds": "-110",
     "stake_units": 1.0,
-    "result": "L",
-    "roi_units": -1.0,
-    "short_reason": "Final score 9-3, total 12 runs, over 10.5 wins but opposite direction"
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final score MIL 9-3 CHC = 12 runs > 10.5 — Win"
   },
   {
     "date": "18-05-2026",
