@@ -1219,5 +1219,49 @@
     "result": "W",
     "roi_units": 0.87,
     "short_reason": "MIN won 6-3, bet hit"
+  },
+  {
+    "date": "19-05-2026",
+    "game": "ATL @ MIA",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-141",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.71,
+    "short_reason": "Final: ATL 8 - MIA 4. ATL won. Selection required ATL to win."
+  },
+  {
+    "date": "19-05-2026",
+    "game": "BOS @ KC",
+    "market": "Total",
+    "selection": "Under 8.0",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final: BOS 7 - KC 1. Total = 8 runs = 8.0 (exact line). Push."
+  },
+  {
+    "date": "19-05-2026",
+    "game": "CLE @ DET",
+    "market": "ML",
+    "selection": "CLE ML",
+    "odds": "-124",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.81,
+    "short_reason": "Final: CLE 4 - DET 3. CLE won. Selection required CLE to win."
+  },
+  {
+    "date": "19-05-2026",
+    "game": "BOS @ KC",
+    "market": "RL",
+    "selection": "BOS -1.5",
+    "odds": "+130",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.3,
+    "short_reason": "Final: BOS 7 - KC 1. Margin +6 ≥ 2. BOS covers -1.5."
   }
 ]
