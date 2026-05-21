@@ -1271,31 +1271,9 @@
     "selection": "Over 9.5",
     "odds": "-115",
     "stake_units": 1.0,
-    "result": "L",
-    "roi_units": -1.0,
-    "short_reason": "Final: NYM 4 - WSH 8. Total = 4 + 8 = 12 runs. 12 > 9.5 → Over 9.5 should be W, but selection was Over so 12 > 9.5 = W. Recalculating: 12 runs > 9.5 line = W. CORRECTION: 12 > 9.5, Over wins = W"
-  },
-  {
-    "date": "20-05-2026",
-    "game": "NYM @ WSH",
-    "market": "Total",
-    "selection": "Over 9.5",
-    "odds": "-115",
-    "stake_units": 1.0,
     "result": "W",
     "roi_units": 0.87,
     "short_reason": "Final: NYM 4 - WSH 8. Total = 12 runs. 12 > 9.5 → W. ROI = 100/115 = 0.87"
-  },
-  {
-    "date": "20-05-2026",
-    "game": "SF @ AZ",
-    "market": "Total",
-    "selection": "Over 8.5",
-    "odds": "-115",
-    "stake_units": 1.0,
-    "result": "L",
-    "roi_units": -1.0,
-    "short_reason": "Final: SF 3 - AZ 6. Total = 9 runs. 9 > 8.5 → W. CORRECTION: 9 runs > 8.5 line = W"
   },
   {
     "date": "20-05-2026",
