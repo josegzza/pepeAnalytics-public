@@ -1318,5 +1318,60 @@
     "result": "W",
     "roi_units": 0.81,
     "short_reason": "Final: LAD 4 - SD 0. Total = 4 runs. 4 < 7.5 → W. ROI = 100/124 = 0.81"
+  },
+  {
+    "date": "21-05-2026",
+    "game": "COL @ AZ",
+    "market": "Total",
+    "selection": "Over 9.5",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: COL 1 - AZ 2. Total = 1 + 2 = 3 runs. 3 < 9.5 → L"
+  },
+  {
+    "date": "21-05-2026",
+    "game": "TOR @ NYY",
+    "market": "Total",
+    "selection": "Over 8.5",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TOR 2 - NYY 0. Total = 2 + 0 = 2 runs. 2 < 8.5 → L"
+  },
+  {
+    "date": "21-05-2026",
+    "game": "ATL @ MIA",
+    "market": "F5 ML",
+    "selection": "ATL F5 ML",
+    "odds": "-136",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.74,
+    "short_reason": "F5 Score: ATL 5 - MIA 2. ATL won F5. Odds -136: roi = +(100/136) = +0.74 → W"
+  },
+  {
+    "date": "21-05-2026",
+    "game": "CLE @ DET",
+    "market": "RL",
+    "selection": "CLE +1.5",
+    "odds": "-215",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.47,
+    "short_reason": "Final: CLE 3 - DET 1. Margin = +2 ≥ +1.5 → CLE covers. Odds -215: roi = +(100/215) = +0.47 → W"
+  },
+  {
+    "date": "21-05-2026",
+    "game": "ATH @ LAA",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final: ATH 3 - LAA 2. Total = 3 + 2 = 5 runs. 5 < 8.5 → W. Odds -110: roi = +(100/110) = +0.91 → W"
   }
 ]
