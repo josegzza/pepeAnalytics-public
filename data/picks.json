@@ -1375,6 +1375,7 @@
     "short_reason": "Final: ATH 3 - LAA 2. Total = 3 + 2 = 5 runs. 5 < 8.5 → W. Odds -110: roi = +(100/110) = +0.91 → W"
   },
   {
+    "date": "22-05-2026",
     "game": "HOU @ CHC",
     "market": "Total",
     "selection": "Under 7.0",
@@ -1385,6 +1386,7 @@
     "short_reason": "Final: HOU 4 - CHC 2. Total=6 vs line=7.0 → Under W."
   },
   {
+    "date": "22-05-2026",
     "game": "MIN @ BOS",
     "market": "Total",
     "selection": "Under 7.5",
@@ -1395,6 +1397,7 @@
     "short_reason": "Final: MIN 8 - BOS 6. Total=14 vs line=7.5 → Under L."
   },
   {
+    "date": "22-05-2026",
     "game": "PIT @ TOR",
     "market": "RL",
     "selection": "PIT +1.5",
@@ -1405,6 +1408,7 @@
     "short_reason": "Final: PIT 2 - TOR 6. PIT margin=-4 vs point=+1.5."
   },
   {
+    "date": "22-05-2026",
     "game": "TB @ NYY",
     "market": "ML",
     "selection": "TB ML",
@@ -1415,6 +1419,7 @@
     "short_reason": "Final: TB 4 - NYY 2. TB won."
   },
   {
+    "date": "22-05-2026",
     "game": "PIT @ TOR",
     "market": "Total",
     "selection": "Over 8.0",
