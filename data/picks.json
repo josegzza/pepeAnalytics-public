@@ -1428,5 +1428,49 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Final: PIT 2 - TOR 6. Total=8 vs line=8.0 → Over P."
+  },
+  {
+    "date": "23-05-2026",
+    "game": "HOU @ CHC",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-118",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.85,
+    "short_reason": "Final: HOU 3 - CHC 0. Total=3 vs line=7.5 → Under W."
+  },
+  {
+    "date": "23-05-2026",
+    "game": "COL @ AZ",
+    "market": "RL",
+    "selection": "AZ -1.5",
+    "odds": "+115",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: COL 4 - AZ 5. AZ margin=+1 vs point=-1.5."
+  },
+  {
+    "date": "23-05-2026",
+    "game": "WSH @ ATL",
+    "market": "ML",
+    "selection": "WSH ML",
+    "odds": "+144",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.44,
+    "short_reason": "Final: WSH 2 - ATL 0. WSH won."
+  },
+  {
+    "date": "23-05-2026",
+    "game": "DET @ BAL",
+    "market": "ML",
+    "selection": "DET ML",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Game postponed due to inclement weather. PPD = PUSH"
   }
 ]
