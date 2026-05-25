@@ -1472,5 +1472,49 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Game postponed due to inclement weather. PPD = PUSH"
+  },
+  {
+    "date": "24-05-2026",
+    "game": "TEX @ LAA",
+    "market": "Total",
+    "selection": "Under 8.0",
+    "odds": "-105",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.95,
+    "short_reason": "Final: TEX 1 - LAA 2. Total=3 vs line=8.0 → Under W."
+  },
+  {
+    "date": "24-05-2026",
+    "game": "TB @ NYY",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.77,
+    "short_reason": "Final: TB 0 - NYY 2. Total=2 vs line=7.5 → Under W."
+  },
+  {
+    "date": "24-05-2026",
+    "game": "CLE @ PHI",
+    "market": "ML",
+    "selection": "CLE ML",
+    "odds": "-116",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.86,
+    "short_reason": "Final: CLE 3 - PHI 1. CLE won."
+  },
+  {
+    "date": "24-05-2026",
+    "game": "TEX @ LAA",
+    "market": "ML",
+    "selection": "TEX ML",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TEX 1 - LAA 2. TEX lost."
   }
 ]
