@@ -1516,5 +1516,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: TEX 1 - LAA 2. TEX lost."
+  },
+  {
+    "date": "25-05-2026",
+    "game": "STL @ MIL",
+    "market": "RL",
+    "selection": "STL +1.5",
+    "odds": "-120",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: STL 1 - MIL 5. STL margin=-4 vs point=+1.5."
+  },
+  {
+    "date": "25-05-2026",
+    "game": "CHC @ PIT",
+    "market": "ML",
+    "selection": "PIT ML",
+    "odds": "+106",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.06,
+    "short_reason": "Final: CHC 1 - PIT 2. PIT won."
+  },
+  {
+    "date": "25-05-2026",
+    "game": "TB @ BAL",
+    "market": "ML",
+    "selection": "TB ML",
+    "odds": "-112",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TB 7 - BAL 9. TB lost."
+  },
+  {
+    "date": "25-05-2026",
+    "game": "SEA @ ATH",
+    "market": "Total",
+    "selection": "Under 10.5",
+    "odds": "-112",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 9 - ATH 2. Total=11 vs line=10.5 → Under L."
+  },
+  {
+    "date": "25-05-2026",
+    "game": "NYY @ KC",
+    "market": "ML",
+    "selection": "KC ML",
+    "odds": "+116",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYY 4 - KC 3. KC lost."
   }
 ]
