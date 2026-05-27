@@ -1571,5 +1571,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: NYY 4 - KC 3. KC lost."
+  },
+  {
+    "date": "26-05-2026",
+    "game": "LAA @ DET",
+    "market": "Total",
+    "selection": "Over 8.5",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.87,
+    "short_reason": "Final: LAA 10 - DET 6. Total=16 vs line=8.5 → Over W."
+  },
+  {
+    "date": "26-05-2026",
+    "game": "AZ @ SF",
+    "market": "Total",
+    "selection": "Over 8.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final: AZ 7 - SF 5. Total=12 vs line=8.0 → Over W."
+  },
+  {
+    "date": "26-05-2026",
+    "game": "ATL @ BOS",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-106",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.94,
+    "short_reason": "Final: ATL 7 - BOS 6. ATL won."
+  },
+  {
+    "date": "26-05-2026",
+    "game": "HOU @ TEX",
+    "market": "RL",
+    "selection": "TEX -1.5",
+    "odds": "+155",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.55,
+    "short_reason": "Final: HOU 7 - TEX 10. TEX margin=+3 vs point=-1.5."
   }
 ]
