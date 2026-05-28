@@ -1615,5 +1615,60 @@
     "result": "W",
     "roi_units": 1.55,
     "short_reason": "Final: HOU 7 - TEX 10. TEX margin=+3 vs point=-1.5."
+  },
+  {
+    "date": "27-05-2026",
+    "game": "PHI @ SD",
+    "market": "ML",
+    "selection": "PHI ML",
+    "odds": "-142",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.7,
+    "short_reason": "Final: PHI 3 - SD 0. PHI won."
+  },
+  {
+    "date": "27-05-2026",
+    "game": "WSH @ CLE",
+    "market": "RL",
+    "selection": "WSH +1.5",
+    "odds": "-137",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.73,
+    "short_reason": "Final: WSH 2 - CLE 3. WSH margin=-1 vs point=+1.5."
+  },
+  {
+    "date": "27-05-2026",
+    "game": "STL @ MIL",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "-118",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.85,
+    "short_reason": "Final: STL 1 - MIL 2. Total=3 vs line=8.5 → Under W."
+  },
+  {
+    "date": "27-05-2026",
+    "game": "AZ @ SF",
+    "market": "ML",
+    "selection": "AZ ML",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.77,
+    "short_reason": "Final: AZ 3 - SF 2. AZ won."
+  },
+  {
+    "date": "27-05-2026",
+    "game": "MIA @ TOR",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-114",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.88,
+    "short_reason": "Final: MIA 1 - TOR 2. Total=3 vs line=7.5 → Under W."
   }
 ]
