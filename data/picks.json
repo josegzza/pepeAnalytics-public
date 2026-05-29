@@ -1670,5 +1670,49 @@
     "result": "W",
     "roi_units": 0.88,
     "short_reason": "Final: MIA 1 - TOR 2. Total=3 vs line=7.5 → Under W."
+  },
+  {
+    "date": "28-05-2026",
+    "game": "ATL @ BOS",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-136",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.74,
+    "short_reason": "Final: ATL 10 - BOS 2. ATL won."
+  },
+  {
+    "date": "28-05-2026",
+    "game": "LAA @ DET",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "-108",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.93,
+    "short_reason": "Final: LAA 7 - DET 1. Total=8 vs line=8.5 → Under W."
+  },
+  {
+    "date": "28-05-2026",
+    "game": "ATL @ BOS",
+    "market": "Total",
+    "selection": "Under 6.5",
+    "odds": "-124",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATL 10 - BOS 2. Total=12 vs line=6.5 → Under L."
+  },
+  {
+    "date": "28-05-2026",
+    "game": "CHC @ PIT",
+    "market": "Total",
+    "selection": "Over 7.5",
+    "odds": "-105",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.95,
+    "short_reason": "Final: CHC 7 - PIT 2. Total=9 vs line=7.5 → Over W."
   }
 ]
