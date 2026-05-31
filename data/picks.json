@@ -1769,5 +1769,49 @@
     "result": "W",
     "roi_units": 1.06,
     "short_reason": "Final: ATL 8 - CIN 3. ATL margin=+5 vs point=-1.5."
+  },
+  {
+    "date": "30-05-2026",
+    "game": "SD @ WSH",
+    "market": "ML",
+    "selection": "SD ML",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SD 4 - WSH 9. SD lost."
+  },
+  {
+    "date": "30-05-2026",
+    "game": "LAA @ TB",
+    "market": "RL",
+    "selection": "TB -1.5",
+    "odds": "+146",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: LAA 14 - TB 3. TB margin=-11 vs point=-1.5."
+  },
+  {
+    "date": "30-05-2026",
+    "game": "TOR @ BAL",
+    "market": "ML",
+    "selection": "TOR ML",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TOR 5 - BAL 6. TOR lost."
+  },
+  {
+    "date": "30-05-2026",
+    "game": "KC @ TEX",
+    "market": "Total",
+    "selection": "Under 8.0",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: KC 6 - TEX 7. Total=13 vs line=8.0 → Under L."
   }
 ]
