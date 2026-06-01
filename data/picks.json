@@ -1813,5 +1813,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: KC 6 - TEX 7. Total=13 vs line=8.0 → Under L."
+  },
+  {
+    "date": "31-05-2026",
+    "game": "BOS @ CLE",
+    "market": "ML",
+    "selection": "BOS ML",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.0,
+    "short_reason": "Final: BOS 9 - CLE 4. BOS won."
+  },
+  {
+    "date": "31-05-2026",
+    "game": "SD @ WSH",
+    "market": "ML",
+    "selection": "SD ML",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SD 2 - WSH 4. SD lost."
+  },
+  {
+    "date": "31-05-2026",
+    "game": "ATL @ CIN",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-126",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATL 4 - CIN 6. ATL lost."
+  },
+  {
+    "date": "31-05-2026",
+    "game": "BOS @ CLE",
+    "market": "Total",
+    "selection": "Under 7.0",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: BOS 9 - CLE 4. Total=13 vs line=7.0 → Under L."
   }
 ]
