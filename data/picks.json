@@ -1857,5 +1857,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: BOS 9 - CLE 4. Total=13 vs line=7.0 → Under L."
+  },
+  {
+    "date": "01-06-2026",
+    "game": "KC @ CIN",
+    "market": "RL",
+    "selection": "CIN -1.5",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: KC 9 - CIN 2. CIN margin=-7 vs point=-1.5."
+  },
+  {
+    "date": "01-06-2026",
+    "game": "TEX @ STL",
+    "market": "Total",
+    "selection": "Over 7.5",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TEX 2 - STL 1. Total=3 vs line=7.5 → Over L."
+  },
+  {
+    "date": "01-06-2026",
+    "game": "COL @ LAA",
+    "market": "RL",
+    "selection": "LAA -1.5",
+    "odds": "+106",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: COL 9 - LAA 8. LAA margin=-1 vs point=-1.5."
+  },
+  {
+    "date": "01-06-2026",
+    "game": "DET @ TB",
+    "market": "Total",
+    "selection": "Under 8.0",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: DET 10 - TB 9. Total=19 vs line=8.0 → Under L."
   }
 ]
