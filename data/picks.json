@@ -1934,5 +1934,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: KC 3 - CIN 4. Total=7 vs line=9.0 → Over L."
+  },
+  {
+    "date": "03-06-2026",
+    "game": "KC @ CIN",
+    "market": "ML",
+    "selection": "CIN ML",
+    "odds": "-158",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: KC 5 - CIN 2. CIN lost."
+  },
+  {
+    "date": "03-06-2026",
+    "game": "SD @ PHI",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-105",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.95,
+    "short_reason": "Final: SD 2 - PHI 3. Total=5 vs line=7.5 → Under W."
+  },
+  {
+    "date": "03-06-2026",
+    "game": "CWS @ MIN",
+    "market": "ML",
+    "selection": "MIN ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CWS 8 - MIN 0. MIN lost."
+  },
+  {
+    "date": "03-06-2026",
+    "game": "PIT @ HOU",
+    "market": "RL",
+    "selection": "PIT +1.5",
+    "odds": "+106",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: PIT 9 - HOU 11. PIT margin=-2 vs point=+1.5."
+  },
+  {
+    "date": "03-06-2026",
+    "game": "ATH @ CHC",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final: ATH 5 - CHC 4. Total=9 vs line=9.0 → Over P."
   }
 ]
