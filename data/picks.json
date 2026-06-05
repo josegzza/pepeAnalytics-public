@@ -1989,5 +1989,38 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Final: ATH 5 - CHC 4. Total=9 vs line=9.0 → Over P."
+  },
+  {
+    "date": "04-06-2026",
+    "game": "LAD @ AZ",
+    "market": "ML",
+    "selection": "LAD ML",
+    "odds": "-132",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: LAD 2 - AZ 3. LAD lost."
+  },
+  {
+    "date": "04-06-2026",
+    "game": "ATH @ CHC",
+    "market": "Total",
+    "selection": "Over 10.5",
+    "odds": "-112",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.89,
+    "short_reason": "Final: ATH 6 - CHC 7. Total=13 vs line=10.5 → Over W."
+  },
+  {
+    "date": "04-06-2026",
+    "game": "SF @ MIL",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-120",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.83,
+    "short_reason": "Final: SF 12 - MIL 9. Total=21 vs line=9.0 → Over W."
   }
 ]
