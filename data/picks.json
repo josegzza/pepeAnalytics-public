@@ -2022,5 +2022,60 @@
     "result": "W",
     "roi_units": 0.83,
     "short_reason": "Final: SF 12 - MIL 9. Total=21 vs line=9.0 → Over W."
+  },
+  {
+    "date": "05-06-2026",
+    "game": "SEA @ DET",
+    "market": "ML",
+    "selection": "SEA ML",
+    "odds": "-124",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 3 - DET 7. SEA lost."
+  },
+  {
+    "date": "05-06-2026",
+    "game": "CIN @ STL",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final: CIN 3 - STL 10. Total=13 vs line=9.0 → Over W."
+  },
+  {
+    "date": "05-06-2026",
+    "game": "WSH @ AZ",
+    "market": "ML",
+    "selection": "WSH ML",
+    "odds": "+116",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.16,
+    "short_reason": "Final: WSH 14 - AZ 1. WSH won."
+  },
+  {
+    "date": "05-06-2026",
+    "game": "CLE @ TEX",
+    "market": "ML",
+    "selection": "CLE ML",
+    "odds": "-132",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CLE 2 - TEX 3. CLE lost."
+  },
+  {
+    "date": "05-06-2026",
+    "game": "BAL @ TOR",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: BAL 13 - TOR 3. Total=16 vs line=8.5 → Under L."
   }
 ]
