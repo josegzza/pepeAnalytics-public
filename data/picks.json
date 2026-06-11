@@ -2297,5 +2297,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: MIN 4 - DET 10. MIN lost."
+  },
+  {
+    "date": "10-06-2026",
+    "game": "PHI @ TOR",
+    "market": "ML",
+    "selection": "PHI ML",
+    "odds": "-136",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.74,
+    "short_reason": "Final: PHI 7 - TOR 4. PHI won."
+  },
+  {
+    "date": "10-06-2026",
+    "game": "CHC @ COL",
+    "market": "Total",
+    "selection": "Over 12.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CHC 2 - COL 3. Total=5 vs line=12.0 → Over L."
+  },
+  {
+    "date": "10-06-2026",
+    "game": "CIN @ SD",
+    "market": "RL",
+    "selection": "SD -1.5",
+    "odds": "+134",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CIN 4 - SD 5. SD margin=+1 vs point=-1.5."
+  },
+  {
+    "date": "10-06-2026",
+    "game": "ATL @ CWS",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATL 1 - CWS 2. ATL lost."
+  },
+  {
+    "date": "10-06-2026",
+    "game": "TEX @ KC",
+    "market": "Total",
+    "selection": "Over 10.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final: TEX 6 - KC 4. Total=10 vs line=10.0 → Over P."
   }
 ]
