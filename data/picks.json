@@ -2407,5 +2407,60 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Game postponed due to rain; no final score available."
+  },
+  {
+    "date": "12-06-2026",
+    "game": "SEA @ WSH",
+    "market": "ML",
+    "selection": "SEA ML",
+    "odds": "-146",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.68,
+    "short_reason": "Final: SEA 10 - WSH 2. SEA won."
+  },
+  {
+    "date": "12-06-2026",
+    "game": "AZ @ CIN",
+    "market": "ML",
+    "selection": "AZ ML",
+    "odds": "-102",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.98,
+    "short_reason": "Final: AZ 5 - CIN 2. AZ won."
+  },
+  {
+    "date": "12-06-2026",
+    "game": "STL @ MIN",
+    "market": "ML",
+    "selection": "MIN ML",
+    "odds": "-136",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.74,
+    "short_reason": "Final: STL 8 - MIN 9. MIN won."
+  },
+  {
+    "date": "12-06-2026",
+    "game": "PHI @ MIL",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.96,
+    "short_reason": "Final: PHI 0 - MIL 6. Total=6 vs line=7.5 → Under W."
+  },
+  {
+    "date": "12-06-2026",
+    "game": "NYY @ TOR",
+    "market": "ML",
+    "selection": "NYY ML",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYY 5 - TOR 8. NYY lost."
   }
 ]
