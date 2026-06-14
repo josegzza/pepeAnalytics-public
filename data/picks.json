@@ -2462,5 +2462,38 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: NYY 5 - TOR 8. NYY lost."
+  },
+  {
+    "date": "13-06-2026",
+    "game": "AZ @ CIN",
+    "market": "ML",
+    "selection": "AZ ML",
+    "odds": "-146",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: AZ 1 - CIN 2. AZ lost."
+  },
+  {
+    "date": "13-06-2026",
+    "game": "HOU @ KC",
+    "market": "Total",
+    "selection": "Over 9.5",
+    "odds": "-106",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.94,
+    "short_reason": "Final: HOU 8 - KC 7. Total=15 vs line=9.5 → Over W."
+  },
+  {
+    "date": "13-06-2026",
+    "game": "COL @ ATH",
+    "market": "ML",
+    "selection": "ATH ML",
+    "odds": "-172",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.58,
+    "short_reason": "Final: COL 5 - ATH 7. ATH won."
   }
 ]
