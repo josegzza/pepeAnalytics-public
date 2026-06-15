@@ -2495,5 +2495,60 @@
     "result": "W",
     "roi_units": 0.58,
     "short_reason": "Final: COL 5 - ATH 7. ATH won."
+  },
+  {
+    "date": "14-06-2026",
+    "game": "SEA @ WSH",
+    "market": "ML",
+    "selection": "SEA ML",
+    "odds": "-142",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 1 - WSH 10. SEA lost."
+  },
+  {
+    "date": "14-06-2026",
+    "game": "AZ @ CIN",
+    "market": "ML",
+    "selection": "CIN ML",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: AZ 5 - CIN 3. CIN lost."
+  },
+  {
+    "date": "14-06-2026",
+    "game": "TB @ LAA",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final: TB 8 - LAA 3. Total=11 vs line=9.0 → Over W."
+  },
+  {
+    "date": "14-06-2026",
+    "game": "NYY @ TOR",
+    "market": "ML",
+    "selection": "NYY ML",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.77,
+    "short_reason": "Final: NYY 8 - TOR 3. NYY won."
+  },
+  {
+    "date": "14-06-2026",
+    "game": "STL @ MIN",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-114",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final: STL 4 - MIN 5. Total=9 vs line=9.0 → Over P."
   }
 ]
