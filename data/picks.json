@@ -2638,5 +2638,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: NYM 3 - CIN 5. Total=8 vs line=9.5 → Over L."
+  },
+  {
+    "date": "17-06-2026",
+    "game": "SD @ STL",
+    "market": "Total",
+    "selection": "Over 10.5",
+    "odds": "-102",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SD 6 - STL 1. Total=7 vs line=10.5 → Over L."
+  },
+  {
+    "date": "17-06-2026",
+    "game": "COL @ CHC",
+    "market": "Total",
+    "selection": "Over 10.0",
+    "odds": "-114",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.88,
+    "short_reason": "Final: COL 6 - CHC 8. Total=14 vs line=10.0 → Over W."
+  },
+  {
+    "date": "17-06-2026",
+    "game": "MIA @ PHI",
+    "market": "ML",
+    "selection": "MIA ML",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.02,
+    "short_reason": "Final: MIA 12 - PHI 4. MIA won."
+  },
+  {
+    "date": "17-06-2026",
+    "game": "PIT @ ATH",
+    "market": "ML",
+    "selection": "PIT ML",
+    "odds": "-124",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.81,
+    "short_reason": "Final: PIT 12 - ATH 4. PIT won."
+  },
+  {
+    "date": "17-06-2026",
+    "game": "DET @ HOU",
+    "market": "RL",
+    "selection": "DET +1.5",
+    "odds": "+140",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: DET 2 - HOU 4. DET margin=-2 vs point=+1.5."
   }
 ]
