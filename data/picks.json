@@ -2748,5 +2748,27 @@
     "result": "W",
     "roi_units": 0.96,
     "short_reason": "Final: STL 6 - KC 14. Total=20 vs line=9.0 → Over W."
+  },
+  {
+    "date": "19-06-2026",
+    "game": "PIT @ COL",
+    "market": "Total",
+    "selection": "Over 11.5",
+    "odds": "-106",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: PIT 3 - COL 4. Total=7 vs line=11.5 → Over L."
+  },
+  {
+    "date": "19-06-2026",
+    "game": "MIL @ ATL",
+    "market": "ML",
+    "selection": "MIL ML",
+    "odds": "-166",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: MIL 2 - ATL 3. MIL lost."
   }
 ]
