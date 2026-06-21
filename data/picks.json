@@ -2770,5 +2770,38 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: MIL 2 - ATL 3. MIL lost."
+  },
+  {
+    "date": "20-06-2026",
+    "game": "PIT @ COL",
+    "market": "Total",
+    "selection": "Over 10.5",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: PIT 1 - COL 2. Total=3 vs line=10.5 → Over L."
+  },
+  {
+    "date": "20-06-2026",
+    "game": "PIT @ COL",
+    "market": "RL",
+    "selection": "PIT -1.5",
+    "odds": "-142",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: PIT 1 - COL 2. PIT margin=-1 vs point=-1.5."
+  },
+  {
+    "date": "20-06-2026",
+    "game": "MIN @ AZ",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.87,
+    "short_reason": "Final: MIN 16 - AZ 8. Total=24 vs line=9.0 → Over W."
   }
 ]
