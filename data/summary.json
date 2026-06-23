@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-22T21:00:44Z",
-  "total_picks": 260,
-  "wins": 137,
-  "losses": 110,
-  "pushes": 13,
-  "units": 22.1,
-  "roi_pct": 8.95,
-  "win_pct": 55.47,
+  "updated_at": "2026-06-23T15:00:38Z",
+  "total_picks": 265,
+  "wins": 140,
+  "losses": 111,
+  "pushes": 14,
+  "units": 23.1,
+  "roi_pct": 9.2,
+  "win_pct": 55.78,
   "by_market": {
     "RL": {
       "w": 24,
@@ -17,14 +17,14 @@
     "Total": {
       "w": 48,
       "l": 31,
-      "p": 8,
+      "p": 9,
       "units": 11.86
     },
     "ML": {
-      "w": 62,
-      "l": 58,
+      "w": 65,
+      "l": 59,
       "p": 4,
-      "units": 3.39
+      "units": 4.39
     },
     "F5 ML": {
       "w": 3,
@@ -271,6 +271,10 @@
     {
       "date": "21-06-2026",
       "units": 22.1
+    },
+    {
+      "date": "22-06-2026",
+      "units": 23.1
     }
   ]
 }

@@ -2858,5 +2858,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: MIN 4 - AZ 2. Total=6 vs line=9.5 → Over L."
+  },
+  {
+    "date": "22-06-2026",
+    "game": "MIL @ CIN",
+    "market": "ML",
+    "selection": "MIL ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.65,
+    "short_reason": "Final: MIL 2 - CIN 1. MIL won."
+  },
+  {
+    "date": "22-06-2026",
+    "game": "AZ @ STL",
+    "market": "ML",
+    "selection": "STL ML",
+    "odds": "-142",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.7,
+    "short_reason": "Final: AZ 2 - STL 3. STL won."
+  },
+  {
+    "date": "22-06-2026",
+    "game": "LAD @ MIN",
+    "market": "ML",
+    "selection": "LAD ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.65,
+    "short_reason": "Final: LAD 2 - MIN 1. LAD won."
+  },
+  {
+    "date": "22-06-2026",
+    "game": "NYY @ DET",
+    "market": "ML",
+    "selection": "NYY ML",
+    "odds": "-132",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYY 3 - DET 5. NYY lost."
+  },
+  {
+    "date": "22-06-2026",
+    "game": "CHC @ NYM",
+    "market": "Total",
+    "selection": "Over 8.5",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Game postponed due to rain on 22-06-2026. No game played."
   }
 ]
