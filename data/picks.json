@@ -2913,5 +2913,60 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Game postponed due to rain on 06-22-2026, makeup game 06-24-2026. No action."
+  },
+  {
+    "date": "23-06-2026",
+    "game": "MIL @ CIN",
+    "market": "Total",
+    "selection": "Over 9.5",
+    "odds": "-112",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: MIL 2 - CIN 0. Total=2 vs line=9.5 → Over L."
+  },
+  {
+    "date": "23-06-2026",
+    "game": "CLE @ CWS",
+    "market": "ML",
+    "selection": "CLE ML",
+    "odds": "-112",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CLE 1 - CWS 2. CLE lost."
+  },
+  {
+    "date": "23-06-2026",
+    "game": "ATL @ SD",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-116",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATL 6 - SD 7. ATL lost."
+  },
+  {
+    "date": "23-06-2026",
+    "game": "HOU @ TOR",
+    "market": "ML",
+    "selection": "HOU ML",
+    "odds": "+112",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.12,
+    "short_reason": "Final: HOU 9 - TOR 7. HOU won."
+  },
+  {
+    "date": "23-06-2026",
+    "game": "BAL @ LAA",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: BAL 1 - LAA 5. Total=6 vs line=9.0 → Over L."
   }
 ]
