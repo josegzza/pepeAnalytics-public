@@ -3023,5 +3023,27 @@
     "result": "W",
     "roi_units": 0.72,
     "short_reason": "Final: MIL 6 - CIN 5. MIL won."
+  },
+  {
+    "date": "25-06-2026",
+    "game": "SEA @ PIT",
+    "market": "ML",
+    "selection": "SEA ML",
+    "odds": "-146",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 1 - PIT 5. SEA lost."
+  },
+  {
+    "date": "25-06-2026",
+    "game": "ATH @ SF",
+    "market": "Total",
+    "selection": "Under 8.0",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATH 9 - SF 6. Total=15 vs line=8.0 → Under L."
   }
 ]
