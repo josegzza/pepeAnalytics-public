@@ -3089,5 +3089,49 @@
     "result": "W",
     "roi_units": 0.93,
     "short_reason": "Final: MIA 4 - STL 0. MIA won."
+  },
+  {
+    "date": "27-06-2026",
+    "game": "CIN @ PIT",
+    "market": "ML",
+    "selection": "CIN ML",
+    "odds": "-118",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.85,
+    "short_reason": "Final: CIN 9 - PIT 7. CIN won."
+  },
+  {
+    "date": "27-06-2026",
+    "game": "CHC @ MIL",
+    "market": "ML",
+    "selection": "MIL ML",
+    "odds": "-164",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: CHC 8 - MIL 2. MIL lost."
+  },
+  {
+    "date": "27-06-2026",
+    "game": "AZ @ TB",
+    "market": "Total",
+    "selection": "Over 8.5",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: AZ 2 - TB 4. Total=6 vs line=8.5 → Over L."
+  },
+  {
+    "date": "27-06-2026",
+    "game": "SEA @ CLE",
+    "market": "ML",
+    "selection": "SEA ML",
+    "odds": "-148",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 3 - CLE 4. SEA lost."
   }
 ]
