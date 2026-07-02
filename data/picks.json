@@ -3287,5 +3287,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: MIN 4 - HOU 6. MIN lost."
+  },
+  {
+    "date": "01-07-2026",
+    "game": "SF @ AZ",
+    "market": "ML",
+    "selection": "SF ML",
+    "odds": "+110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.1,
+    "short_reason": "Final: SF 6 - AZ 4. SF won."
+  },
+  {
+    "date": "01-07-2026",
+    "game": "MIA @ COL",
+    "market": "ML",
+    "selection": "MIA ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: MIA 3 - COL 6. MIA lost."
+  },
+  {
+    "date": "01-07-2026",
+    "game": "SD @ CHC",
+    "market": "ML",
+    "selection": "SD ML",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SD 3 - CHC 23. SD lost."
+  },
+  {
+    "date": "01-07-2026",
+    "game": "STL @ ATL",
+    "market": "Total",
+    "selection": "Over 9.0",
+    "odds": "-120",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: STL 1 - ATL 5. Total=6 vs line=9.0 → Over L."
+  },
+  {
+    "date": "01-07-2026",
+    "game": "TB @ KC",
+    "market": "ML",
+    "selection": "TB ML",
+    "odds": "-132",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.76,
+    "short_reason": "Final: TB 4 - KC 0. TB won."
   }
 ]
