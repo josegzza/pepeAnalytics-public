@@ -3397,5 +3397,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: CWS 5 - CLE 6. CWS lost."
+  },
+  {
+    "date": "03-07-2026",
+    "game": "TOR @ SEA",
+    "market": "ML",
+    "selection": "TOR ML",
+    "odds": "-126",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.79,
+    "short_reason": "Final: TOR 2 - SEA 0. TOR won."
+  },
+  {
+    "date": "03-07-2026",
+    "game": "SF @ COL",
+    "market": "ML",
+    "selection": "SF ML",
+    "odds": "-154",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SF 3 - COL 15. SF lost."
+  },
+  {
+    "date": "03-07-2026",
+    "game": "PIT @ WSH",
+    "market": "ML",
+    "selection": "WSH ML",
+    "odds": "-142",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.7,
+    "short_reason": "Final: PIT 5 - WSH 9. WSH won."
+  },
+  {
+    "date": "03-07-2026",
+    "game": "BOS @ LAA",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-120",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.83,
+    "short_reason": "Final: BOS 5 - LAA 2. Total=7 vs line=7.5 → Under W."
   }
 ]
