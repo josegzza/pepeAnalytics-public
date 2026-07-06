@@ -3452,5 +3452,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: MIL 3 - AZ 4. MIL lost."
+  },
+  {
+    "date": "05-07-2026",
+    "game": "BOS @ LAA",
+    "market": "ML",
+    "selection": "BOS ML",
+    "odds": "-162",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.62,
+    "short_reason": "Final: BOS 7 - LAA 5. BOS won."
+  },
+  {
+    "date": "05-07-2026",
+    "game": "DET @ TEX",
+    "market": "ML",
+    "selection": "DET ML",
+    "odds": "-122",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.82,
+    "short_reason": "Final: DET 6 - TEX 3. DET won."
+  },
+  {
+    "date": "05-07-2026",
+    "game": "BAL @ CIN",
+    "market": "RL",
+    "selection": "BAL +1.5",
+    "odds": "+146",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.46,
+    "short_reason": "Final: BAL 2 - CIN 3. BAL margin=-1 vs point=+1.5."
+  },
+  {
+    "date": "05-07-2026",
+    "game": "SF @ COL",
+    "market": "Total",
+    "selection": "Over 13.0",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "P",
+    "roi_units": 0.0,
+    "short_reason": "Final: SF 6 - COL 7. Total=13 vs line=13.0 → Over P."
   }
 ]
