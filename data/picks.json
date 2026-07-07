@@ -3496,5 +3496,38 @@
     "result": "P",
     "roi_units": 0.0,
     "short_reason": "Final: SF 6 - COL 7. Total=13 vs line=13.0 → Over P."
+  },
+  {
+    "date": "06-07-2026",
+    "game": "HOU @ WSH",
+    "market": "Total",
+    "selection": "Over 9.5",
+    "odds": "-120",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.83,
+    "short_reason": "Final: HOU 11 - WSH 12. Total=23 vs line=9.5 → Over W."
+  },
+  {
+    "date": "06-07-2026",
+    "game": "NYM @ ATL",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-130",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYM 7 - ATL 6. ATL lost."
+  },
+  {
+    "date": "06-07-2026",
+    "game": "COL @ LAD",
+    "market": "Team Total",
+    "selection": "LAD Over 4.5",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.87,
+    "short_reason": "Final: COL 7 - LAD 8. LAD scored 8 runs > 4.5 line."
   }
 ]
