@@ -3540,5 +3540,38 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: COL 4 - LAD 3. Total=7 vs line=9.5 → Over L."
+  },
+  {
+    "date": "08-07-2026",
+    "game": "MIL @ STL",
+    "market": "ML",
+    "selection": "MIL ML",
+    "odds": "-148",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: MIL 1 - STL 5. MIL lost."
+  },
+  {
+    "date": "08-07-2026",
+    "game": "PHI @ CIN",
+    "market": "Total",
+    "selection": "Under 9.0",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: PHI 5 - CIN 11. Total=16 vs line=9.0 → Under L."
+  },
+  {
+    "date": "08-07-2026",
+    "game": "COL @ LAD",
+    "market": "Team Total",
+    "selection": "LAD Over 5.5",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: COL 3 - LAD 4. LAD scored 4 runs; 4 < 5.5 → Loss"
   }
 ]
