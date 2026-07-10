@@ -3573,5 +3573,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: COL 3 - LAD 4. LAD scored 4 runs; 4 < 5.5 → Loss"
+  },
+  {
+    "date": "09-07-2026",
+    "game": "PHI @ CIN",
+    "market": "ML",
+    "selection": "PHI ML",
+    "odds": "-164",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.61,
+    "short_reason": "Final: PHI 1 - CIN 0. PHI won."
+  },
+  {
+    "date": "09-07-2026",
+    "game": "NYY @ TB",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "-106",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYY 12 - TB 4. Total=16 vs line=7.5 → Under L."
+  },
+  {
+    "date": "09-07-2026",
+    "game": "MIL @ STL",
+    "market": "ML",
+    "selection": "MIL ML",
+    "odds": "-132",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.76,
+    "short_reason": "Final: MIL 8 - STL 4. MIL won."
+  },
+  {
+    "date": "09-07-2026",
+    "game": "AZ @ SD",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "+102",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.02,
+    "short_reason": "Final: AZ 3 - SD 1. Total=4 vs line=8.5 → Under W."
   }
 ]
