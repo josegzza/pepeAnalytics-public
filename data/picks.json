@@ -3672,5 +3672,49 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: BOS 6 - NYM 2. Total=8 vs line=7.5 → Under L."
+  },
+  {
+    "date": "11-07-2026",
+    "game": "LAA @ MIN",
+    "market": "RL",
+    "selection": "MIN -1.5",
+    "odds": "+116",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.16,
+    "short_reason": "Final: LAA 3 - MIN 5. MIN margin=+2 vs point=-1.5."
+  },
+  {
+    "date": "11-07-2026",
+    "game": "AZ @ LAD",
+    "market": "RL",
+    "selection": "LAD -1.5",
+    "odds": "-125",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: AZ 9 - LAD 2. LAD margin=-7 vs point=-1.5."
+  },
+  {
+    "date": "11-07-2026",
+    "game": "COL @ SF",
+    "market": "Total",
+    "selection": "Under 8.5",
+    "odds": "-106",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.94,
+    "short_reason": "Final: COL 2 - SF 4. Total=6 vs line=8.5 → Under W."
+  },
+  {
+    "date": "11-07-2026",
+    "game": "ATL @ STL",
+    "market": "ML",
+    "selection": "ATL ML",
+    "odds": "-104",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATL 1 - STL 4. ATL lost."
   }
 ]
