@@ -3716,5 +3716,60 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: ATL 1 - STL 4. ATL lost."
+  },
+  {
+    "date": "12-07-2026",
+    "game": "ATH @ CWS",
+    "market": "ML",
+    "selection": "ATH ML",
+    "odds": "+108",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: ATH 1 - CWS 9. ATH lost."
+  },
+  {
+    "date": "12-07-2026",
+    "game": "COL @ SF",
+    "market": "Total",
+    "selection": "Under 9.0",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.91,
+    "short_reason": "Final: COL 1 - SF 3. Total=4 vs line=9.0 → Under W."
+  },
+  {
+    "date": "12-07-2026",
+    "game": "PHI @ DET",
+    "market": "Total",
+    "selection": "Under 7.0",
+    "odds": "-115",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 0.87,
+    "short_reason": "Final: PHI 5 - DET 0. Total=5 vs line=7.0 → Under W."
+  },
+  {
+    "date": "12-07-2026",
+    "game": "SEA @ TB",
+    "market": "Total",
+    "selection": "Under 7.5",
+    "odds": "+100",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: SEA 8 - TB 2. Total=10 vs line=7.5 → Under L."
+  },
+  {
+    "date": "12-07-2026",
+    "game": "TOR @ SD",
+    "market": "ML",
+    "selection": "TOR ML",
+    "odds": "-126",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: TOR 4 - SD 5. TOR lost."
   }
 ]
