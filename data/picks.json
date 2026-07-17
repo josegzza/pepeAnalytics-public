@@ -3771,5 +3771,27 @@
     "result": "L",
     "roi_units": -1.0,
     "short_reason": "Final: TOR 4 - SD 5. TOR lost."
+  },
+  {
+    "date": "16-07-2026",
+    "game": "NYM @ PHI",
+    "market": "ML",
+    "selection": "NYM ML",
+    "odds": "+110",
+    "stake_units": 1.0,
+    "result": "W",
+    "roi_units": 1.1,
+    "short_reason": "Final: NYM 4 - PHI 1. NYM won."
+  },
+  {
+    "date": "16-07-2026",
+    "game": "NYM @ PHI",
+    "market": "Total",
+    "selection": "Over 9.5",
+    "odds": "-110",
+    "stake_units": 1.0,
+    "result": "L",
+    "roi_units": -1.0,
+    "short_reason": "Final: NYM 4 - PHI 1. Total=5 vs line=9.5 → Over L."
   }
 ]
